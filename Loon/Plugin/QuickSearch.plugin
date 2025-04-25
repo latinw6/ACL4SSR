@@ -7,7 +7,7 @@
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=gg\+([^&]+).+ https://www.google.com/search?q=$1 302
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.perplexity.ai/search/?q=%1 302
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.perplexity.ai/search/?q=$1 302
 
 [MITM]
 hostname =  duckduckgo.com
